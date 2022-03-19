@@ -34,3 +34,5 @@ jobs:
           github_token: ${{ secrets.SEV_TOKEN }}
           # Build output to publish to the `gh-pages` branch:
           publish_dir: ./build
+          user_name: ${{ secrets.SEV_USERNAME }}
+          user_email: ${{ secrets.SEV_EMAIL }}
