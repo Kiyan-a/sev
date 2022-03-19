@@ -34,5 +34,5 @@ jobs:
           github_token: ${{ secrets.ACCESS_TOKEN }}
           # Build output to publish to the `gh-pages` branch:
           publish_dir: ./build
-          user_name: ${{ secrets.ACCESS_TOKEN }}
-          user_email: ${{ secrets.ACCESS_TOKEN }}
+          user_name: ${{ secrets.ACCESS_USERNAME }}
+          user_email: ${{ secrets.ACCESS_EMAIL }}
