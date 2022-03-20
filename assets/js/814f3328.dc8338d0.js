@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Vue","permalink":"/sev/blog/Vue"},{"title":"\u81ea\u52a8\u6309\u9700\u5f15\u5165\u7ec4\u4ef6","permalink":"/sev/blog/\u81ea\u52a8\u6309\u9700\u5bfc\u5165\u7ec4\u4ef6"}]}')}}]);
