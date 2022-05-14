@@ -66,8 +66,8 @@ const config = {
             label: '📖文档',
           },
           { to: '/blog', label: '✏️经验', position: 'right' },
-          { to: '/tool', label: '🛠️工具', position: 'right' },
-          { to: '/about', label: '💻关于', position: 'right' },
+          // { to: '/tool', label: '🛠️工具', position: 'right' },
+          // { to: '/about', label: '💻关于', position: 'right' },
           {
             href: 'https://github.com/Kiyan-a',
             label: '🤖GitHub',
