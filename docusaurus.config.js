@@ -6,25 +6,21 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'for 🤖',
+  tagline: '🤖 are cool',
+  url: 'https://kiyan-a.github.io',
+  baseUrl: '/sev/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-
+  favicon: 'img/logo.svg',
+  organizationName: 'Kiyan-a', // Usually your GitHub org/user name.
+  projectName: 'sev', // Usually your repo name.
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -36,15 +32,15 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          // 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,70 +53,72 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Ki',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Ki Logo',
           src: 'img/logo.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            docId: '📖 文档',
+            position: 'right',
+            label: '📖文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: '✏️经验', position: 'right' },
+          { to: '/tool', label: '🛠️工具', position: 'right' },
+          { to: '/about', label: '💻关于', position: 'right' },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/Kiyan-a',
+            label: '🤖GitHub',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: '文档',
+            items: [
+              // {
+              //   label: 'Tutorial',
+              //   to: '/docs/intro',
+              // },
+            ],
+          },
+          {
+            title: '社区',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Vue',
+                href: 'https://cn.vuejs.org/',
+              },
+              {
+                label: 'Element UI',
+                href: 'https://element.eleme.cn/#/zh-CN',
+              },
+              {
+                label: 'Vite',
+                href: 'https://vitejs.cn/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '更多',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/Kiyan-a',
+              },
+              {
+                label: '稀土掘金',
+                href: 'https://juejin.cn/user/897675666396296',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Ki 版权所有 © ${new Date().getFullYear()}😁 积跬步以至千里，致敬每个爱学习的你！`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -1,7 +1,7 @@
 ---
-title: Markdown page example
+title: 🛠️工具
 ---
 
-# Markdown page example
+# 🛠️ 工具
 
 You don't need React to write simple standalone pages.

@@ -1,0 +1,25 @@
+@font-face {
+    font-family: myFont;
+    src: url('/static/huaguan.ttf');
+  }
+.hero__title{
+    color: #ffffff;
+    font-family: myFont;
+}
+.button{
+    border: none;
+    color: #ffffff;
+    background-color: #085dd7;
+    border-radius: 8px;
+    box-shadow:  2px 3px 9px #699de1,
+                -2px -3px 9px #b6deff;
+    transition: all .6s;
+}
+.button:hover{
+    box-shadow:  7px 7px 11px #699de1,
+                -7px -7px 11px #b6deff;
+                transition: all .6s;
+}
+.button.button--secondary{
+    color: #ffffff;
+}

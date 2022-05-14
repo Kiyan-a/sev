@@ -4,38 +4,35 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: '我的前端',
+    Svg: require('@site/static/img/doc.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        做好的事情，而不是好做的事情。平时的技术积累，分享交流技术心得，温故而知新，不想多年以后发现自己在这条路上毫无痕迹。
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: '经验分享',
+    Svg: require('@site/static/img/cloud-shell-svgrepo-com.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        记录自己遇到的且难以解决的问题，并记录解决方案。不断的保持学习，才能一直不断的提升自我，不断进步。没有了学校教授知识，学习变成一件需要主动进行的事。
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: '工具分享',
+    Svg: require('@site/static/img/ball-basket-education-football-learning-school-svgrepo-com.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        工欲善其事，必先利其器。比如代码开发、美化、格式化、转码、图像处理、数据联调、代码部署、命令行操作等部分，安装相应好用的工具，让开发全流程事半功倍。
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

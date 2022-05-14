@@ -9,3 +9,19 @@
   height: 200px;
   width: 200px;
 }
+.featureSvg:hover{
+  animation: bounce-down 2s linear infinite;
+
+}
+
+@keyframes bounce-down {
+   25% {
+        transform: translateY(-6px);
+   }
+   50%, 100% {
+        transform: translateY(0);
+   }
+   75% {
+        transform: translateY(6px);
+   }
+}
