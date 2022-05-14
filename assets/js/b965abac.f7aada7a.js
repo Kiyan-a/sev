@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[2043],{2621:function(e){e.exports=JSON.parse('{"label":"vue-cli-service","permalink":"/sev/blog/tags/vue-cli-service","allTagsPath":"/sev/blog/tags","count":1}')}}]);
