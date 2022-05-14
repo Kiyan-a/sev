@@ -6,10 +6,9 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import './index.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import party from "party-js";
+// import party from "party-js";
 
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
@@ -39,9 +38,9 @@ export default function Home() {
   );
 }
 
-document.querySelector("div").addEventListener("click", function (e) {
-  party.confetti(this, {
-    count: party.variation.range(60, 60),
-    size: party.variation.range(0.6, 0.4),
-  });
-});
+// document.querySelector("div").addEventListener("click", function (e) {
+//   party.confetti(this, {
+//     count: party.variation.range(60, 60),
+//     size: party.variation.range(0.6, 0.4),
+//   });
+// });
