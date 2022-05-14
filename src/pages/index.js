@@ -7,13 +7,6 @@ import styles from './index.module.css';
 import './index.css';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 // import party from "party-js";
-var _hmt = _hmt || [];
-(function () {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?d4d97e13dd6aeb4c83dae19cf452f706";
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
 
 function HomepageHeader() {
   return (
