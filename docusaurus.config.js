@@ -120,9 +120,37 @@ const config = {
         ],
         copyright: `Ki 版权所有 © ${new Date().getFullYear()}😁 积跬步以至千里，致敬每个爱学习的你！`,
       },
+      docs: {
+        sidebar: {
+          hideable: true
+        }
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'YKNSKCV7QA',
+
+        // Public API key: it is safe to commit it
+        apiKey: '25108f199e02784f63572c5d2ac82030',
+
+        indexName: 'sev_NAME',
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+
+        //... other Algolia params
       },
     }),
 };

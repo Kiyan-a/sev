@@ -1,7 +1,8 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-
+import 'gitalk/dist/gitalk.css';
+import GitalkComponent from 'gitalk/dist/gitalk-component';
 const FeatureList = [
   {
     title: '我的前端',
@@ -35,6 +36,7 @@ const FeatureList = [
 function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
+
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
@@ -48,14 +50,27 @@ function Feature({ Svg, title, description }) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+    <div>
+      <section className={styles.features}>
+        <div className="container">
+          <div className="row">
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <GitalkComponent
+        options={{
+          clientID: '5b8f9dd8ee69249cb54f',
+          clientSecret: '2f028418820968718477fd2d234d8d6b8ab3ad5a',
+          repo: 'sev',
+          owner: 'Kiyan-a',
+          admin: ['Kiyan-a'],
+          id: decodeURI(window.location.pathname),
+
+        }}
+      ></GitalkComponent>
+    </div>
   );
 }
