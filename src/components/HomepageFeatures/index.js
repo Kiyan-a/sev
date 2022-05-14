@@ -3,6 +3,15 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 import 'gitalk/dist/gitalk.css';
 import GitalkComponent from 'gitalk/dist/gitalk-component';
+const option = {
+  clientID: '5b8f9dd8ee69249cb54f',
+  clientSecret: '2f028418820968718477fd2d234d8d6b8ab3ad5a',
+  repo: 'sev',
+  owner: 'Kiyan-a',
+  admin: ['Kiyan-a'],
+  id: decodeURI(window.location.pathname),
+
+}
 const FeatureList = [
   {
     title: '我的前端',
@@ -61,15 +70,7 @@ export default function HomepageFeatures() {
         </div>
       </section>
       <GitalkComponent
-        options={{
-          clientID: '5b8f9dd8ee69249cb54f',
-          clientSecret: '2f028418820968718477fd2d234d8d6b8ab3ad5a',
-          repo: 'sev',
-          owner: 'Kiyan-a',
-          admin: ['Kiyan-a'],
-          id: decodeURI(window.location.pathname),
-
-        }}
+        options={option}
       ></GitalkComponent>
     </div>
   );
