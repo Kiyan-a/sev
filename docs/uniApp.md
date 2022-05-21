@@ -708,7 +708,7 @@ console.log('H5🥬');
 - 🥃 跳转 tabbar 页面，必须设置`open-type="switchTab"`
 - navigator-hover 默认为 {background-color: rgba(0, 0, 0, 0.1); opacity: 0.7;}, `<navigator>` 的子节点背景色应为透明色。
 - navigator-`open-type`属性 如果使用对应的值，则对应值的功能会高于对应跳转路径。
-- [uLink 组件 (opens new window)](https://ext.dcloud.net.cn/plugin?id=1182)是 navigator 组件的增强版，样式上自带下划线，功能上支持打开在线网页、其他 App 的 schema、mailto 发邮件、tel 打电话。
+- [uLink 组件 ](https://ext.dcloud.net.cn/plugin?id=1182)是 navigator 组件的增强版，样式上自带下划线，功能上支持打开在线网页、其他 App 的 schema、mailto 发邮件、tel 打电话。
 
 ```html
 <template>
