@@ -427,8 +427,8 @@ vue 页面支持下面这些普通 H5 单位，但在 nvue 里不支持：
 ### uni.request({option})
 
 > 在各个小程序平台运行时，网络相关的 API 在使用前需要配置域名白名单
->
-> ![](https://raw.githubusercontent.com/Kiyan-a/For_picGo/img/202205211331685.png)
+
+![](https://raw.githubusercontent.com/Kiyan-a/For_picGo/img/202205211331685.png)
 
 **option 参数说明**
 
