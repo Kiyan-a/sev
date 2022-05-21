@@ -253,7 +253,7 @@ uni-app 的基本组件，像 div、p、span 标签一样，用于搭建页面�
 
 - **🐬`<text>` 组件内只支持嵌套 `<text>`，不支持其它组件或自定义组件否则会引发在不同平台的渲染差异。**
 - 在 app-nvue 下，只有`<text>`才能包裹文本内容。无法在`<view>`组件包裹文本。
-- decode 可以解析的有 <img src="https://raw.githubusercontent.com/Kiyan-a/For_picGo/img/202205211019774.png" style="zoom:78%;" />
+- decode 可以解析的有 ![](https://raw.githubusercontent.com/Kiyan-a/For_picGo/img/202205211019774.png)
 - 各个操作系统的空格标准并不一致。
 - **💻 除了文本节点以外的其他节点都无法长按选中。**
 - 支持 `\n` 方式换行。

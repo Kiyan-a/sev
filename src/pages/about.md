@@ -25,6 +25,6 @@ title: 💻关于
 
 ##### 联系我 🤙
 
-​ <img src="https://raw.githubusercontent.com/Kiyan-a/For_picGo/img/202205211816289.jpg" style="zoom:20%;" />
+​ ![](https://raw.githubusercontent.com/Kiyan-a/For_picGo/img/202205211844672.jpg)
 
 > 本文摘录自 https://xugaoyi.com/
