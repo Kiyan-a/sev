@@ -23,8 +23,8 @@ title: 💻关于
 
 一旦开始，继续做下去就会容易得多。有时，你甚至会发现，自己在不知不觉间已经完成了任务。
 
-##### 																																				联系我🤙
+##### 联系我 🤙
 
-​																																				<img src="https://raw.githubusercontent.com/Kiyan-a/For_picGo/img/202205211816289.jpg" style="zoom:20%;" />
+​ <img src="https://raw.githubusercontent.com/Kiyan-a/For_picGo/img/202205211816289.jpg" style="zoom:20%;" />
 
 > 本文摘录自 https://xugaoyi.com/
